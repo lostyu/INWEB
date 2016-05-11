@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ty-form-group {
+  margin-bottom: 20px;
+}
+.ty-form-group:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.ty-form-text {
+  float: left;
+  min-width: 100px;
+  text-align: right;
+}
+.ty-form-ipt {
+  padding-left: 110px;
+}
+.ty-form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
